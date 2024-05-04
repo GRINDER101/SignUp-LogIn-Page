@@ -1,0 +1,56 @@
+#signupform {
+    width: 80%;
+    height: 59vh;
+    padding-left: 8%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 50px;
+}
+
+input {
+    width: 90%;
+    height: 3vh;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(28, 60, 128);
+    margin-bottom: 3px;
+    color: rgb(215, 131, 28);
+    background: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgb(165, 196, 224);
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: rgb(215, 131, 28);
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.btn.btn-block {
+    width: 40%;
+    height: 6vh;
+    margin-top: 4%;
+    background-color: rgb(28, 60, 128);
+    color: azure;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signinbutton {
+    margin-left: 80px;
+}
+
+.error::placeholder {
+    color: red;
+}

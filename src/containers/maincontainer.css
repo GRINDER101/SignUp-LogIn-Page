@@ -1,0 +1,9 @@
+.maincontainer {
+    height: 76vh;
+    width: 100%;
+    overflow-x: scroll;
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 6%;
+    margin-top: 6%;
+    background: radial-gradient(circle at 94% 83%, rgba(25, 110, 142, 1) 0%, rgba(82, 100, 145, 1) 100%);
+}

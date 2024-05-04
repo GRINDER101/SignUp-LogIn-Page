@@ -1,0 +1,33 @@
+.intro-container {
+    width: 100%;
+    height: 76vh;
+    background: radial-gradient(circle at 98% 83%, rgba(96, 113, 125, 1) 0%, rgba(80, 80, 198, 1) 100%);
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+    padding: 17%;
+}
+
+
+
+.intro-container h2 {
+    margin-top: 0%;
+    margin-bottom: 12%;
+    font-size: 26px;
+    font-weight: 300;
+    color: rgb(16, 50, 160);
+}
+
+.intro-container h3 {
+    letter-spacing: 1px;
+    margin-bottom: 39px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(21, 37, 88);
+}
+
+.intro-container h5 {
+    font-weight: 600;
+    line-height: 16px;
+    color: rgb(43, 38, 38);
+}
