@@ -5,6 +5,7 @@
     border-bottom-left-radius: 6%;
     border-top-left-radius: 6%;
     padding: 17%;
+    overflow: auto;
 }
 
 
