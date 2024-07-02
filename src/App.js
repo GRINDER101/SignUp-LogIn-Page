@@ -76,12 +76,23 @@ function App() {
           setLoginDetails({ ...logindetails, password: '' })
           document.querySelector('.password').setAttribute('placeholder', 'Not a valid password')
           document.querySelector('.password').classList.add('error');
-        } else {
+        }else {
           IsloginConfirmed(true);
         }
-        } 
+        }
+    else if (logindetails.email === ""  && logindetails.password === "" ){
+      alert("Put all the necessary details first and then try to LogIn.")
+    }    
+    else if (logindetails.email === "" ){
+      document.querySelector('.email').setAttribute('placeholder', 'Put your email first')
+      document.querySelector('.email').classList.add('error');
+    } 
+    else if (logindetails.password === "" ){
+      document.querySelector('.password').setAttribute('placeholder', 'Put your password first')
+      document.querySelector('.password').classList.add('error');
+    }    
     else{
-      alert("first register yourself with us.")
+      alert("You are not registered with us. First register yourself by clicking the SignUp button below!")
     }
   }
 
