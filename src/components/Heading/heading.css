@@ -2,8 +2,9 @@
     width: 80%;
     height: 18%;
     padding-top: 12%;
-    padding-left: 10%;
+    padding-left: 8%;
     margin-left: 11%;
+    overflow: auto;
 }
 
 .heading h2 {
